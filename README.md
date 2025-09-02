@@ -16,7 +16,7 @@ Multi-Platform Distribution: Seamlessly posts to platforms like Mastodon.
 
 Agentic AI Workflow: Fully autonomous content research, writing, design, and publishing pipeline.
 
-Use Cases
+# Use Cases
 
 Tech & business news articles
 
@@ -28,7 +28,7 @@ Blog summaries, newsletters, and content repurposing
 
 Any domain requiring timely, visually rich, high-impact content
 
-Installation
+# Installation
 
 Clone this repository:
 
@@ -36,7 +36,7 @@ git clone https://github.com/jawadnaseerofficial/Agentic-AI-Project-Advanced-Aut
 cd Agentic-AI-Project-Advanced-Auto-Posting-for-all-Platforms
 
 
-Create a virtual environment and activate it:
+# Create a virtual environment and activate it:
 
 python -m venv .venv
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
@@ -47,22 +47,22 @@ Install dependencies:
 pip install -r requirements.txt
 
 
-Set your API keys in the script:
+#Set your API keys in the script:
 
 GOOGLE_API_KEY for Google ADK
 
 UNSPLASH_ACCESS_KEY for Unsplash API
 
-Mastodon CLIENT_KEY, CLIENT_SECRET, and ACCESS_TOKEN
+Mastodon CLIENT_KEY, CLIENT_SECRET, and ACCESS_TOKEN (use other platform api if you want)
 
-Usage
+# Usage
 
 Run the agent to automatically generate and post content:
 
-python agent.py
+Agentic-AI-Project-Advanced-Auto-Posting-for-all-Social-Media.py
 
 
-The system will:
+# The system will:
 
 Fetch trending topics from Google.
 
@@ -74,7 +74,7 @@ Overlay the title and article text over a blurred, semi-transparent background.
 
 Post the image with content to Mastodon.
 
-Customization
+# Customization
 
 Fonts & Styles: Update arialbd.ttf and arial.ttf for customized text appearance.
 
@@ -82,7 +82,7 @@ Overlay & Colors: Adjust gradient and overlay settings in agent.py for different
 
 Target Platforms: Extend posting to other social media APIs as needed.
 
-Contributing
+# Contributing
 
 Contributions are welcome! Feel free to submit pull requests for:
 
@@ -94,6 +94,6 @@ Visual enhancements
 
 Multi-platform integrations
 
-License
+# License
 
 This project is open-source and available under the MIT License.
